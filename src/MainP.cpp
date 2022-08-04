@@ -33,7 +33,7 @@ void testYenAlg()
 {
 	Graph my_graph("data/test_15");
 
-	YenTopKShortestPathsAlg yenAlg(&my_graph, my_graph.get_vertex(0),
+	YenTopKShortestPathsAlg yenAlg(my_graph, my_graph.get_vertex(0),
 		my_graph.get_vertex(14));
 
 	int i=0;
